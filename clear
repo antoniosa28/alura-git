@@ -1,0 +1,252 @@
+[33mcommit 43e0a07cc50810f0d0bb68465ebb03ad0e77ec71[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Antonio Marcos <antoniomarkitos2022@gmail.com>
+Date:   Mon Mar 29 09:31:06 2021 -0300
+
+    Nome adicionado no arquivo
+
+[1mdiff --git a/trab01.html b/trab01.html[m
+[1mindex a373896..ae415e0 100644[m
+[1m--- a/trab01.html[m
+[1m+++ b/trab01.html[m
+[36m@@ -14,7 +14,7 @@[m
+ <body>[m
+ [m
+ [m
+[31m-<header> <h1>Nome e foto</h1> </header>[m
+[32m+[m[32m<header> <h1>Nome e foto antonio</h1> </header>[m
+ <hr>[m
+ <nav> <img src="images/foto.jpg" width="200" height="200" alt="meu avatar">[m
+ <h3>Antonio Marcos</h3>[m
+
+[33mcommit bab3ab7be67ac2cd5c0c3aa178238502ae9fe4da[m
+Author: Antonio Marcos <antoniomarkitos2022@gmail.com>
+Date:   Mon Mar 29 09:28:00 2021 -0300
+
+    Atividade 01 html com imagem
+
+[1mdiff --git a/images/1.jpg b/images/1.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..14baa72[m
+Binary files /dev/null and b/images/1.jpg differ
+[1mdiff --git a/images/2.jpg b/images/2.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..01f4e57[m
+Binary files /dev/null and b/images/2.jpg differ
+[1mdiff --git a/images/3.jpg b/images/3.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..6f33cdc[m
+Binary files /dev/null and b/images/3.jpg differ
+[1mdiff --git a/images/4.jpg b/images/4.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..d96ba3f[m
+Binary files /dev/null and b/images/4.jpg differ
+[1mdiff --git a/images/5.jpg b/images/5.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..0d07e44[m
+Binary files /dev/null and b/images/5.jpg differ
+[1mdiff --git a/images/6.jpg b/images/6.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..625d3af[m
+Binary files /dev/null and b/images/6.jpg differ
+[1mdiff --git a/images/foto.jpg b/images/foto.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..af03dd2[m
+Binary files /dev/null and b/images/foto.jpg differ
+[1mdiff --git a/trab01.html b/trab01.html[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a373896[m
+[1m--- /dev/null[m
+[1m+++ b/trab01.html[m
+[36m@@ -0,0 +1,192 @@[m
+[32m+[m[32m<!--Nome : Antonio Marcos Barbosa de Sá -->[m
+[32m+[m[32m<!--Matricula : 11721BSI200 -->[m
+[32m+[m
+[32m+[m[32m<!DOCTYPE html>[m
+[32m+[m[32m<html lang="pt–BR">[m
+[32m+[m
+[32m+[m[32m<head>[m
+[32m+[m[32m<meta charset="UTF–8">[m
+[32m+[m[32m<title>trabalho01</title>[m
+[32m+[m[32m</head>[m
+[32m+[m
+[32m+[m[32m<section>[m
+[32m+[m
+[32m+[m[32m<body>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<header> <h1>Nome e foto</h1> </header>[m
+[32m+[m[32m<hr>[m
+[32m+[m[32m<nav> <img src="images/foto.jpg" width="200" height="200" alt="meu avatar">[m
+[32m+[m[32m<h3>Antonio Marcos</h3>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<p> Para ver meu curriculo clique em </p>[m
+[32m+[m[32m<a href="#curriculo">[m
+[32m+[m[32mVer curriculo[m
+[32m+[m[32m</a>[m
+[32m+[m
+[32m+[m[32m<p> Já a galeria se encontram em[m[41m [m
+[32m+[m[32m<a href="#galeria">[m
+[32m+[m[32mgaleria[m
+[32m+[m[32m</a>  com as imagens em linhas e colunas </p>[m
+[32m+[m
+[32m+[m[32m<p> Os dados pessoais se encontram em : </p>[m
+[32m+[m[32m<a href="#Dados pessoais">[m
+[32m+[m[32mDados pessoais[m
+[32m+[m[32m</a>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m</nav>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<main>[m
+[32m+[m[32m<h1>  Menu de Navegação:  </h1>[m
+[32m+[m[32m<hr>[m
+[32m+[m
+[32m+[m[32m<h3> Curriculo Antonio: </h3>[m
+[32m+[m[32m<h2 id="curriculo">Curriculo:</h2>[m
+[32m+[m
+[32m+[m[32m<h3> Formação Acadêmica: </h3>[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m			[32m<p> Escolaridade: </p>[m
+[32m+[m			[32m<ol>[m
+[32m+[m				[32m<li> Graduando o 5° periodo de Sistema de Informação na <a href="http://www.ufu.br"> Universidade Federal de Uberlândia - UFU </a> </li>[m
+[32m+[m				[32m<li> Ensino Médio Completo </li>[m
+[32m+[m			[32m</ol>[m
+[32m+[m[41m			[m
+[32m+[m			[32m<p> Cursos Profissionalizantes: </p>[m
+[32m+[m[41m			[m
+[32m+[m[41m	[m
+[32m+[m	[32m<table border="2" width="60%">[m[41m [m
+[32m+[m[41m			[m
+[32m+[m			[32m<tr>[m
+[32m+[m				[32m<td> Assistente Administrativo Completo </td>[m
+[32m+[m				[32m<td> CEBRAC </td>[m
+[32m+[m			[32m</tr>[m
+[32m+[m[41m				[m
+[32m+[m			[32m<tr>[m
+[32m+[m				[32m<td> Técnico em Informática </td>[m
+[32m+[m				[32m<td> UTRAMIG </td>[m
+[32m+[m			[32m</tr>[m
+[32m+[m	[32m</table>[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m			[32m<h3> Experiência Profissional: </h3>[m
+[32m+[m[41m			[m
+[32m+[m			[32m<ul>[m
+[32m+[m				[32m<li> Candidato ao primeiro emprego/estágio </li>[m
+[32m+[m			[32m</ul>[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m		[32m<table border="2" width="30%">[m[41m [m
+[32m+[m		[32m<h2 id="galeria">galeria:</h2>[m
+[32m+[m			[32m<tr>[m
+[32m+[m				[32m<td> <img src="images/1.jpg" width="180" height="190" alt="primeira"> </td>[m
+[32m+[m				[32m<td> <img src="images/2.jpg" width="180" height="190" alt="segunda">  </td>[m
+[32m+[m				[32m<td> <img src="images/3.jpg" width="180" height="190" alt="terceira"> </td>[m
+[32m+[m			[32m</tr>[m
+[32m+[m[41m			[m
+[32m+[m			[32m<tr>[m
+[32m+[m				[32m<td> <img src="images/4.jpg" width="180" height="190" alt="quarta">  </td>[m
+[32m+[m				[32m<td> <img src="images/5.jpg" width="180" height="190" alt="quinta">  </td>[m
+[32m+[m				[32m<td> <img src="images/6.jpg" width="180" height="190" alt="sexta"> </td>[m
+[32m+[m			[32m</tr>[m
+[32m+[m[41m			[m
+[32m+[m		[32m</table>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m</main>[m
+[32m+[m
+[32m+[m[32m<h1>  Dados Pessoais </h1>[m
+[32m+[m[32m<hr>[m
+[32m+[m
+[32m+[m[32m<h2 id="Dados pessoais">Dados pessoais:</h2>[m
+[32m+[m
+[32m+[m
+[32m+[m[41m			[m
+[32m+[m			[32m<p> Nome Completo: </p>[m
+[32m+[m				[32m<ul>[m
+[32m+[m					[32m<li> Antonio Marcos Barbosa de Sá </li>[m
+[32m+[m				[32m</ul>[m
+[32m+[m			[32m<p> Endereço: </p>[m
+[32m+[m				[32m<ul>[m
+[32m+[m					[32m<li> Uberlândia,CEP: 99999-999 </li>[m
+[32m+[m				[32m</ul>[m
+[32m+[m			[32m<p> Nacionalidade, Estado Civil e idade: </p>[m
+[32m+[m				[32m<ul>[m
+[32m+[m					[32m<li> brasileiro,solteiro, 21 anos (<i>28/02/1999</i>) </li>[m
+[32m+[m				[32m</ul>[m
+[32m+[m			[32m<p> Email: </p>[m[41m [m
+[32m+[m			[32m<p> Entre em contato por e-mail[m
+[32m+[m				[32m<a href="mailto:exemploantonio@gmail.com">[m
+[32m+[m				[32mexemploantonio@gmail.com </p>[m
+[32m+[m				[32m</a>[m
+[32m+[m			[32m<p> Telefone Celular: </p>[m
+[32m+[m			[32m<p> O Telefone celular é[m[41m [m
+[32m+[m				[32m<a href="tel:034-9999-9999">[m
+[32m+[m				[32m(34)999999999[m
+[32m+[m				[32m</a>[m
+[32m+[m[41m				[m
+[32m+[m[41m				[m
+[32m+[m[41m				[m
+[32m+[m[41m			[m
+[32m+[m
+[32m+[m[41m			[m
+[32m+[m[41m			[m
+[32m+[m			[32m<h1> Outros: </h1>[m
+[32m+[m			[32m<hr>[m
+[32m+[m			[32m<p> Tudo sobre hmtl: </p>[m
+[32m+[m[41m			[m
+[32m+[m			[32m<iframe width="320" height="270"[m[41m [m
+[32m+[m			[32msrc="https://www.youtube.com/embed/iZ1ucWosOww"[m
+[32m+[m			[32mallow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"[m
+[32m+[m			[32mallowfullscreen>[m
+[32m+[m			[32m</iframe>[m
+[32m+[m[41m			[m
+[32m+[m
+[32m+[m[32m<footer>[m
+[32m+[m
+[32m+[m[32m<p> Direitos autorais </p>[m
+[32m+[m
+[32m+[m
+[32m+[m[32m</footer>[m
+[32m+[m
+[32m+[m[32m</section>[m
+[32m+[m
+[32m+[m[32m</body>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m</html>[m
+[32m+[m
